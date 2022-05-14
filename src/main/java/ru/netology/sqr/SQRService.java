@@ -1,16 +1,15 @@
 package ru.netology.sqr;
 
 public class SQRService {
-    public int service(int Min, int Max) {
+    public int service(int min, int max) {
         int count = 0;
         for (int i = 10; i <= 99; i++) {
-            if (i * i >= Min)
-            if (i * i <= Max)
+            if (i * i >= min && i * i <= max) {
 
-            count++;
+                count++;
+
+            }
         }
         return count;
-
     }
-
 }
